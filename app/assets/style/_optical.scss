@@ -181,11 +181,17 @@
     .top-benner li {
         min-height: 136px;
     }
-    .product h2{
-        padding-top: 40px;
-        margin-bottom: 0;
-        font-size: 24px;
-        line-height: 36px;
+    .product{
+        h2{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        h2:first-child{
+            padding-top: 40px;
+            font-size: 24px;
+            line-height: 36px;
+        }
+
     }
     .iteams{
         text-align: center;

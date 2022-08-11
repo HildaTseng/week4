@@ -153,12 +153,12 @@
     }
     .top-benner{
         .sunglasses-benner-left{
-            background-image: url(../images/product-header-sm-1.png);
+            background-image: url(../images/product-header-sm-3.png);
             background-size:cover ;
             background-position: center;
      }
         .sunglasses-benner-right{
-            background-image: url(../images/product-header-sm-2.png);
+            background-image: url(../images/product-header-sm-4.png);
             background-size:cover ;
             background-position:center;
      }
@@ -179,11 +179,17 @@
     .top-benner li {
         min-height: 136px;
     }
-    .product h2{
-        padding-top: 40px;
-        margin-bottom: 0;
-        font-size: 24px;
-        line-height: 36px;
+    .product{
+        h2{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        h2:first-child{
+            padding-top: 40px;
+            font-size: 24px;
+            line-height: 36px;
+        }
+
     }
     .sunglasses-iteams{
         text-align: center;
