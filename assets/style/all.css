@@ -146,6 +146,9 @@ body {
   margin: 0 auto;
   padding: 0 15px; }
 
+.text-roboto {
+  font-family: 'Roboto'; }
+
 /* header 表頭 */
 .header {
   background-color: #AA0601;
@@ -515,7 +518,8 @@ body {
     display: block;
     font-size: 48px;
     line-height: 72px;
-    font-weight: 700;
+    font-weight: 900;
+    font-style: italic;
     text-align: center;
     color: #AA0601;
     text-decoration: none;
@@ -569,7 +573,8 @@ body {
       display: block;
       font-size: 48px;
       line-height: 72px;
-      font-weight: 700;
+      font-weight: 900;
+      font-style: italic;
       text-decoration: none;
       color: #AA0601;
       padding: 8px 0;
@@ -883,9 +888,15 @@ body {
   font-size: 32px;
   line-height: 48px;
   font-weight: 500;
-  text-align: center;
+  text-align: center; }
+
+.product h2:first-child {
   padding-top: 80px;
-  padding-bottom: 32px; }
+  font-size: 42px;
+  line-height: 63px; }
+
+.product .Noto-Sans {
+  font-family: 'Noto Sans TC'; }
 
 .iteams {
   display: -webkit-box;
@@ -895,7 +906,8 @@ body {
       flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-top: 32px; }
   .iteams .iteam {
     width: 24%;
     margin-bottom: 80px; }
@@ -917,9 +929,10 @@ body {
             justify-content: space-between;
     line-height: 36px;
     font-size: 24px;
-    font-weight: 500; }
+    font-weight: 400; }
     .iteams .name p:last-child {
-      color: #AA0601; }
+      color: #AA0601;
+      font-weight: 500; }
   .iteams .colors {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1055,9 +1068,15 @@ body {
   font-size: 32px;
   line-height: 48px;
   font-weight: 500;
-  text-align: center;
+  text-align: center; }
+
+.product h2:first-child {
   padding-top: 80px;
-  padding-bottom: 32px; }
+  font-size: 42px;
+  line-height: 63px; }
+
+.product .Noto-Sans {
+  font-family: 'Noto Sans TC'; }
 
 .sunglasses-iteams {
   display: -webkit-box;
@@ -1067,7 +1086,8 @@ body {
       flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-top: 32px; }
   .sunglasses-iteams .iteam {
     width: 32%;
     margin-bottom: 80px; }
