@@ -1010,7 +1010,8 @@ body {
   .product h2:first-child {
     padding-top: 40px;
     font-size: 24px;
-    line-height: 36px; }
+    line-height: 36px;
+    margin-bottom: 0; }
   .iteams {
     text-align: center; }
     .iteams .iteam {
@@ -1191,7 +1192,8 @@ body {
   .product h2:first-child {
     padding-top: 40px;
     font-size: 24px;
-    line-height: 36px; }
+    line-height: 36px;
+    margin-bottom: 0; }
   .sunglasses-iteams {
     text-align: center; }
     .sunglasses-iteams .iteam {
