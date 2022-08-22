@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="./assets/style/all.css">
   <title>光學眼鏡系列</title>
 </head>
@@ -32,19 +33,19 @@
   </div>
 
   
-<div class="top-bar container text-roboto">
+<div class="top-bar container text-roboto" >
     <ul>
         <li class="bb-red"><a href="./optical.html">OPTICAL</a></li>
         <li><a href="sunglasses.html">SUNGLASSES</a></li>
         <li><a href="#">FUNCTIONAL</a></li>
     </ul>
 </div>
-<ul class="top-benner">
+<ul class="top-benner" data-aos="fade-up" data-aos-once="ture">
     <li class="optical-benner-left"></li>
     <li class="optical-benner-right"></li>
 </ul>
-<div class="product container text-roboto">
-    <h2>Celluloid Combi</h2>
+<div class="product container text-roboto" data-aos="fade-up" data-aos-once="ture">
+    <h2 >Celluloid Combi</h2>
     <h2 class="Noto-Sans">賽璐珞鈦金屬混合鏡框</h2>
     <div class="iteams">
         <div class="iteam">
@@ -220,7 +221,7 @@
 
 
   <!-- 表尾 -->
-  <div class="footer">
+  <div class="footer" data-aos="fade-up" data-aos-once="ture">
     <div class="container">
         <div class="information">
             <div class="footer-nav">
@@ -273,6 +274,12 @@
     </div>
     
 </div>
+<!-- AOS  -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
 </body>
 
 </html>
